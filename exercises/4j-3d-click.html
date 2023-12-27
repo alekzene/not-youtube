@@ -1,23 +1,60 @@
-<button class="shadow">
-  Shadow
-</button>
+<!DOCTYPE html> <!-- Document type declaration. Tells browser that it's HTML5. -->
+<!-- What are other doctypes? -->
+<html lang="en"> <!-- Is it necessary to specify the language? Why or why not? -->
+  <head> <!-- NOTE: It's good practice to use head and body sections + put metadata in head section. -->
+    <meta charset="UTF-8"> <!-- meta = metadata ; read more about character encoding and utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- initial-scale=1.0 ensures page is zoomed to 100% upon loading -->
+    <!-- What's a viewport? -->
 
-<style>
-  .shadow {
-    background-color: rgb(0, 150, 0);
-    color: white;
-    border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+    <!-- NOTE: Title goes to the head section, not the body, because we aren't referring to text on the webpage.
+    Title, in this sense, refers to the HTML doc's title (a.k.a. the page's title itself). -->
+    <title>
+      Test Button with Shadow 
+    </title>
 
-  /* FIXME: Make box shadow disappear after clicking again. */
-  .shadow:active, .shadow:focus {
-    background-color: rgb(0, 150, 0);
-    color: white;
-    border: none;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  }
-</style>
+    <!-- NOTE: Style sheets are also typically added in the head section to avoid FOUC: Flash of Unstyled Content -->
+    <style>
+      .shadow {
+        background-color: rgb(0, 150, 0);
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      /* FIXME: Make box shadow disappear after clicking again. 
+      CURRENT BEHAVIOR: If I use .shadow:active, the shadow appears only while clicking on the button.
+      If I use shadow:focus, the shadow stays even after clicking the button. 
+      The shadow only disappears when I click on other parts of the page, but not when I click the button again. 
+      POTENTIAL SOLUTION: Learn JavaScript and use it for interactivity. */
+      .shadow:focus {
+        background-color: rgb(0, 150, 0);
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+  
+      .shadow.box-shadow-active {
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    </style>
+  </head>
+
+  <body>  
+    <button class="shadow">
+      Shadow
+    </button>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var button = document.querySelector('.shadow');
+        button.addEventListener('click', function() {
+          button.classList.toggle('box-shadow-active');
+        });
+      });
+    </script>  
+  </body>  
+</html>
