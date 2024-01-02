@@ -1,81 +1,35 @@
-<style>
-.video-author {
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-top: 14px; /* CSS Specificity. 
-    margin-top for .video-author overrides margin-top for p 
-    because .video-author is more specific. */
-  }
-
-  p { /* Targets all classes that are paragraphs */
-    font-family: Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .video-title {
-    font-size: 18px;
-    font-weight: bold;
-    width: 300px;
-    line-height: 24px;
-    margin-bottom: 4px;
-  }
-
-  .video-details {
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-  }
-
-  .description {
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    width: 280px;
-    line-height: 22px;
-    margin-top: 14px;
-  }
-
-  .shop-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    background-color: rgb(277, 65, 64);
-    color: white;
-    text-align: center;
-    padding-top: 15px; 
-    padding-bottom: 15px; 
-    width: 500px;
-    /* text-decoration: underline; */ /* Affects entire paragraph. */
-  }
-
-  .shop-now:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-</style>
-
-<p class="video-title">
-  Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class="video-details">
-  3.4M views &#183; 6 months ago
-</p>
-
-<p class="video-author">
-  Marques Brownlee &#10003; <!-- An HTML entity. Preferred over copy-pasting symbols. -->
-</p>
-
-<p class="description">
-  Talking tech and AI on the heels of Google I/O. 
-  Also a daily driver phone reveal from Google's CEO. 
-  Shoutout to Sundar!
-</p>
-
-<!-- HTML: Line breaks in code do not appear on the web page. -->
-
-<p class="shop-text">
-  Shop early for the best selection of holiday favourites. 
-  <span clas="shop-now"> Shop now &gt; </span>  <!-- Use HTML entity for greater than (>) to avoid browser from confusing it with an HTML tag. -->
-  <!-- Text Element: element inside a text (strong [bold], u [underline], span[none(used for custom styling text elements)])-->
-  <!-- FIXME: Using span element doesn't seem to work. -->
-</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Practice</title>
+    <link rel="stylesheet" href="styles/text.css"> 
+  </head>
+  <body>
+    <p class="video-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    
+    <p class="video-details">
+      3.4M views &#183; 6 months ago
+    </p>
+    
+    <p class="video-author">
+      Marques Brownlee &#10003; <!-- An HTML entity. Preferred over copy-pasting symbols. -->
+    </p>
+    
+    <p class="description">
+      Talking tech and AI on the heels of Google I/O. 
+      Also a daily driver phone reveal from Google's CEO. 
+      Shoutout to Sundar!
+    </p>
+    
+    <!-- HTML: Line breaks in code do not appear on the web page. -->
+    
+    <p class="shop-text">
+      Shop early for the best selection of holiday favourites. 
+      <span clas="shop-now"> Shop now &gt; </span>  <!-- Use HTML entity for greater than (>) to avoid browser from confusing it with an HTML tag. -->
+      <!-- Text Element: element inside a text (strong [bold], u [underline], span[none(used for custom styling text elements)])-->
+      <!-- FIXME: Using span element doesn't seem to work. -->
+    </p>
+  </body>
+</html>
