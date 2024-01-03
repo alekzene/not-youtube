@@ -1,0 +1,31 @@
+.back-to-amazon {
+  color: rgb(0, 113, 133);
+}
+
+.in-stock {
+  color: rgb(0, 118, 0)
+}
+
+.free-delivery-tomorrow {
+  font-weight: 100;
+  font-size: 24;
+}
+
+.add-to-cart {
+  background-color: rgb(252, 225, 87);
+  height: 35px;
+  width: 165px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 18;
+  margin-right: 14px;
+}
+
+.buy-now {
+  background-color: rgb(255, 164, 28);
+  height: 35px;
+  width: 165px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 18;
+}

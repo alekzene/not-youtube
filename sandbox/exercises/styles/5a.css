@@ -1,0 +1,5 @@
+  .title {
+    font-family: Tahoma;
+    font-weight: bold; /* FIXME: Why doesn't font-style attribute work? */    
+    font-size: 30px;
+  }
