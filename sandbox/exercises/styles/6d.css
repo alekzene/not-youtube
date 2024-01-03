@@ -1,0 +1,24 @@
+.p {
+  /*This class doesn't seem to be recognized. It's not working.*/
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.subheading-link {
+  text-decoration: underline;
+}
