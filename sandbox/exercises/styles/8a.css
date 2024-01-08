@@ -5,3 +5,118 @@
 .name-field {
   margin-bottom: 5px;
 }
+
+.paragraph, .yes-button, .no-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paragraph {
+  width: 200px;
+}
+
+.search-box, .google-logo {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.google-logo {
+  width: 200px;
+  height: 85px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 110px;
+}
+
+.search-box {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.25);
+  color:rgba(0, 0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+.first-name-field,.first-name-field1 {
+  display: inline-block;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  border-width: 0.5px;
+  border-radius: 7px;
+  border-color: rgba(135, 135, 135);
+  font-size: 15px;
+  width: 115px;
+}
+
+.email-field {
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  border-width: 0.5px;
+  border-radius: 7px;
+  border-color: rgba(135, 135, 135);
+  font-size: 15px;
+  width: 250px;
+}
+
+.sign-up-button {
+  display: block;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(48, 94, 220);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 265px;
+}
+
+.uber-title {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.pickup-field, .destination-field {
+  display: block;
+  background-color: rgb(237, 237, 237);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  font-size: 12px;
+  width: 290px;
+}
+
+.pickup-field {
+  margin-bottom: 6px;
+}
+
+.destination-field {
+  margin-bottom: 30px;
+}
+
+.request-now-button, .schedule-for-later-button {
+  border: none;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.request-now-button {
+  background-color: black;
+  color: white;
+  margin-right: 15px;
+}
