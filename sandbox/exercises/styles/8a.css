@@ -1,0 +1,7 @@
+.name-field, .email-field {
+  display: block;
+}
+
+.name-field {
+  margin-bottom: 5px;
+}
