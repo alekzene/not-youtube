@@ -1,0 +1,68 @@
+.square-div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.circle-div {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: green;
+}
+
+.square-div, .circle-div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.feedback-container {
+  border: solid;
+  border-width: 1px;
+  border-color: grey; /* FIXME: border doesn't look grey. it looks black. */
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.feedback-prompt {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.yes-button, .no-button {
+  display: inline-block;
+}
+
+.install-prompt-container {
+  border: none;
+  background-color: rgb(37, 35, 35);
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.install-prompt {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.install-prompt-description {
+  color: rgb(175, 175, 175);
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.install-prompt-description,.install-prompt {
+  font-family: Roboto, sans-serif;
+}
