@@ -16,7 +16,6 @@
 }
 
 .search-box, .google-logo {
-  display: block;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -26,7 +25,6 @@
   height: 85px;
   object-fit: cover;
   object-position: center;
-  margin-left: 110px;
 }
 
 .search-box {
@@ -122,4 +120,30 @@ input:focus {
   background-color: black;
   color: white;
   margin-right: 15px;
+}
+
+.google-search-container {
+  text-align: center;
+}
+
+.buttons-container {
+  margin-top: 35px;
+}
+
+.google-search-button {
+  border: none;
+  background-color: rgb(230, 239, 243);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 8px;
+}
+
+.google-search-button:active {
+  background-color: rgb(193, 201, 204);
+}
+
+.google-search-button:hover {
+  cursor: pointer;
 }
