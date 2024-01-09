@@ -1,0 +1,47 @@
+
+.search-bar {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  width: 300px ;
+  object-fit: cover;
+}
+
+.video-preview {
+  display: inline-block;
+  width: 300px;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+}
+
+/* FIXME: font-weight doesn't seem to work for vid details */
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.video-author {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+}
+
+.video-stats {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+}
+
+
+
