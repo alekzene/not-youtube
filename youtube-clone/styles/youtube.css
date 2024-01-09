@@ -29,19 +29,40 @@ p {
 .video-title {
   font-size: 14px;
   font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .video-author {
   font-size: 12px;
   font-weight: 400;
   color: rgb(96, 96, 96);
+  margin-bottom: 6px;
 }
 
 .video-stats {
   font-size: 12px;
   font-weight: 400;
   color: rgb(96, 96, 96);
+  margin-top: 0px;
 }
 
+.pfp {
+  width: 36px;
+  height: 36px;
+  border-radius: 360px;
+}
 
+.video-details {
+  width: 240px;
+  margin-left: 12px;
+}
 
+.video-author-pfp, .video-details {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-description {
+  margin-top: 12px;
+}
