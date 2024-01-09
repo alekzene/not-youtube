@@ -8,6 +8,10 @@
   margin-bottom: 30px;
 }
 
+.search-bar:focus {
+  outline: none;
+}
+
 .thumbnail {
   width: 300px ;
   object-fit: cover;
@@ -16,12 +20,15 @@
 .video-preview {
   display: inline-block;
   width: 300px;
+  margin-bottom: 50px;
   margin-right: 15px;
   vertical-align: top;
 }
 
 p {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial; /* font stack */
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* FIXME: font-weight doesn't seem to work for vid details */
@@ -29,28 +36,37 @@ p {
 .video-title {
   font-size: 14px;
   font-weight: 500;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-title:hover, .video-author:hover, .pfp:hover, .thumbnail:hover {
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  
+  /* FIXME: add video preview */
+}
+
+.video-author, .video-stats {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .video-author {
-  font-size: 12px;
-  font-weight: 400;
   color: rgb(96, 96, 96);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .video-stats {
-  font-size: 12px;
-  font-weight: 400;
   color: rgb(96, 96, 96);
-  margin-top: 0px;
 }
 
 .pfp {
   width: 36px;
   height: 36px;
-  border-radius: 360px;
+  border-radius: 100px;
 }
 
 .video-details {
