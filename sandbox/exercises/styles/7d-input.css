@@ -85,5 +85,13 @@ p {
 
 input:focus {
   outline: none; 
-  /*FIXME: Doesn't seem to work when targetting specific input field. Re: .twitter-button*/
+}
+
+.create-tweet-container {
+  box-shadow: 0.5px 1px 4px 1px rgb(158, 158, 157);
+  border-radius: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  width: 375px;
+  /* FIXME: weird margin above items. hence, can't put padding. */
 }
