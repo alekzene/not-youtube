@@ -1,4 +1,4 @@
-.cat-container {
+.cat-card-container {
   display: inline-block;
   width: 200px;
   height: 300px;
@@ -9,16 +9,29 @@
   margin-right: 15px;
 }
 
+.pfp-container, .cat-details-container {
+  display: block;
+}
+
+.pfp-container {
+  width: 200px;
+  height: 200px;
+}
+
 .cat-details-container {
-  margin-top: 10px;
-  margin-left: 10px;
+  width: 180px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .cat-name, .mutual-friends, .add-friends-button {
   display: block;
 }
 
-.add-friend-button, .cat-name, .mutual-friends:hover {
+.cat-name, .mutual-friends:hover, .add-friend-button {
   cursor: pointer;
 }
 
