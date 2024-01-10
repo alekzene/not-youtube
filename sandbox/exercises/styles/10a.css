@@ -5,10 +5,9 @@ p {
 }
 
 .profile-container {
-  width: 287px;
+  width: 337px;
   height: 58px;
-  border: solid;
-  border-width: 1px;
+  border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 12px;
@@ -26,10 +25,10 @@ p {
 }
 
 .user-details {
-  width: 100px;
+  width: 188px;
   height: 58px;
   margin-left: 12px;
-  margin-right: 50px;
+  margin-right: 12px;
   line-height: 20px;
 }
 
@@ -39,8 +38,16 @@ p {
   margin-right: 0px;
 }
 
+.pfp {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
 .name {
   font-weight: bold;
+  width: 100px;
 }
 
 .bio, .remark {
@@ -49,21 +56,6 @@ p {
 
 .remark {
   font-size: 13px;
-}
-
-.pfp {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 100px;
-}
-
-.user-details, .bio, .remark {
-  width: 100px;
-}
-
-.name {
-  width: 100px;
 }
 
 .follow-button {
@@ -76,4 +68,16 @@ p {
   padding-left: 12px;
   padding-right: 12px;
   font-weight: bold;
+}
+
+.name, .follow-button:hover {
+  cursor: pointer;
+}
+
+.follow-button:active {
+  background-color: rgb(40, 121, 192);
+}
+
+.name:active {
+  text-decoration: underline;
 }
