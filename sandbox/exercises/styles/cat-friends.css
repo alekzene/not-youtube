@@ -1,7 +1,7 @@
 .cat-card-container {
   display: inline-block;
   width: 200px;
-  height: 300px;
+  height: 310px;
   object-position: middle;
   object-fit: cover;
   vertical-align: top;
@@ -20,19 +20,27 @@
 
 .cat-details-container {
   width: 180px;
-  height: 80px;
-  padding-top: 10px;
+  height: 87px;
+  padding-top: 14px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.cat-name, .mutual-friends, .add-friends-button {
+.cat-name, .mutual-friends-container, .add-friends-button {
   display: block;
 }
 
 .cat-name, .mutual-friends:hover, .add-friend-button {
   cursor: pointer;
+}
+
+.cat-name:active {
+  text-decoration: underline;
+}
+
+.mutual-friends-container {
+  margin-top: 5px;
 }
 
 .mutual-friends:hover {
@@ -53,13 +61,25 @@ p {
 
 .cat-name {
   font-weight: bold;
-  margin-top: 4px;
+  margin-top: 0px;
+}
+
+.mutual-friend-pic, .mutual-friends {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mutual-friend-pic {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 100px;
 }
 
 .mutual-friends {
   color: rgb(78, 78, 78);
-  font-size: 12px;
-  margin-top: 4px;
+  font-size: 13px;
+  margin-left: 4px;
 }
 
 .add-friend-button {
