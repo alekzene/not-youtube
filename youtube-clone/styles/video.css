@@ -1,0 +1,68 @@
+.video-preview {
+  display: grid;
+}
+
+.thumbnail {
+  width: 300px ;
+  object-fit: cover;
+}
+
+.video-preview {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+/* FIXME: font-weight doesn't seem to work for vid details */
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-title:hover, .video-author:hover, .pfp:hover, .thumbnail:hover {
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  
+  /* FIXME: add video preview */
+}
+
+.video-author, .video-stats {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.video-author {
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+}
+
+.video-stats {
+  color: rgb(96, 96, 96);
+}
+
+.pfp {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+.video-details {
+  width: 240px;
+  margin-left: 12px;
+}
+
+.video-author-pfp, .video-details {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-description {
+  margin-top: 12px;
+}
