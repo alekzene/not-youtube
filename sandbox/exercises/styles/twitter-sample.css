@@ -1,0 +1,24 @@
+p, div {
+  font-family: Arial;
+}
+
+.tweet-container, .tweet-details-container, .tweet-header, .embed-container, .embed-details-container {
+  display: flex;
+}
+
+.tweet-container, .tweet-header, .embed-container {
+  flex-direction: row;
+}
+
+.tweet-content-container, .tweet-details-container, .embed-details-container {
+  flex-direction: column;
+}
+
+.author-pfp {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+  margin-right: 13px;
+}
