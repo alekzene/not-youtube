@@ -2,6 +2,11 @@ p, div {
   font-family: Arial;
 }
 
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
 .tweet-container, .tweet-details-container, .tweet-header, .embed-container, .embed-details-container {
   display: flex;
 }
@@ -14,11 +19,70 @@ p, div {
   flex-direction: column;
 }
 
+.tweet-container {
+  width: 440px;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
 .author-pfp {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   object-position: center;
-  border-radius: 35px;
-  margin-right: 13px;
+  border-radius: 350px;
+  margin-right: 15px;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.author-username{
+  color: rgb(105, 105, 105);
+}
+
+.tweet-content-container {
+  margin-top: 5px;
+  line-height: 22px;
+}
+
+.embed-container {
+  border: solid;
+  border-color: rgb(177, 177, 177);
+  border-width: 1px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.thumbnail-container {
+  flex: 1;
+  background-color: rgb(218, 217, 217);
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 20px;
+}
+
+/* FIXME: LAYOUT ISSUE. EMBED-DETAILS-CONTAINER OVERLAPS WITH EMBED-CONTAINER'S BORDER*/
+.embed-details-container {
+  flex: 2;
+  background-color: white;
+  justify-content: center;
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-right: 12px;
+  padding-bottom: 15px;
+  margin-left: -15px;
+  height: 70px;
+}
+
+.embed-website {
+  color: rgb(105, 105, 105);
+}
+
+.embed-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
