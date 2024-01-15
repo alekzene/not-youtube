@@ -1,0 +1,77 @@
+p {
+  font-family: Arial;
+  color: white;
+}
+
+.header-container {
+  background-color: rgb(144, 103, 220);
+  height: 60px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section, .search-bar-section, .download-section {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.home-section {
+  width: 150px;
+}
+
+.download-section {
+  width: 200px;
+}
+
+.home-section {
+  padding-left: 20px;
+}
+
+.home-label {
+  font-weight: bold;
+}
+
+.download-section {
+  justify-content: right;
+  padding-right: 12px;
+}
+
+.download-button {
+  background-color: transparent;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  height: 35px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.download-button:hover {
+  cursor: pointer;
+  background-color: white;
+  border-color: rgb(144, 103, 220);
+  color: rgb(144, 103, 220);
+}
+
+.search-bar-section {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  flex: 1;
+  padding-left: 20px;
+}
