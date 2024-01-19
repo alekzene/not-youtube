@@ -1,5 +1,5 @@
-.video-preview {
-  display: grid;
+.videos {
+  display: flex;
 }
 
 .thumbnail {
@@ -8,7 +8,7 @@
 }
 
 .video-preview {
-  display: inline-block;
+  display: flex;
   width: 300px;
   margin-bottom: 50px;
   margin-right: 15px;
@@ -59,7 +59,7 @@
 }
 
 .video-author-pfp, .video-details {
-  display: inline-block;
+  display: flex;
   vertical-align: top;
 }
 
