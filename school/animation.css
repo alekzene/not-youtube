@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to top, #0c192c, #193154, #23416c);
+    display: flex;
+    align-items: right;
+}
+
+.orbs {
+    display: flex; /* Why don't the orbs appear when display is not set to flex?*/
+    flex-direction: row;
+    /* background-color: lightcoral; */
+}
+
+.orbs span {
+    /* background-color: aqua; */
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    margin-left: 55px;
+    /* background-color: lightblue; */
+    justify-content: center;
+}
+
+.navbar p {
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.title {
+    font-size: 200px;
+    color: rgb(192, 192, 60);
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    /* background-color: lightcoral; */
+    line-height: 180px;
+    margin-left: 55px;
+}
+
+.hello {
+    justify-content: right;
+    align-items: flex-end;
+    /* background-color: lightblue; */
+}
+
+.world {
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+}
